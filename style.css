@@ -61,7 +61,7 @@ nav ul li a:hover {
 .hero {
   padding: 96px 32px;
   background: #f5f5f5;
-  background-image: url("../assets/images/background.jpg");
+  background-image: url("assets/images/background.jpg");
   background-size: cover;
   background-position: center;
   height: 88vh;
