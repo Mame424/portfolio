@@ -280,7 +280,7 @@ nav ul li a:hover {
   display: flex;
   gap: 16px;
   align-items: center;
-  margin-top: 32px;
+  margin-top: 32px;  
 }
 .avatar {
   width: 48px;
