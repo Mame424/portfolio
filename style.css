@@ -143,6 +143,10 @@ nav ul li a:hover::after {
 .hero-content {
   flex: 1;
   max-width: 550px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  order: 1;
 }
 
 .hero-subtitle {
@@ -171,6 +175,25 @@ nav ul li a:hover::after {
   margin-bottom: 36px;
   line-height: 1.8;
   animation: fadeInUp 1s ease;
+}
+#hero-video{
+  object-fit: cover;
+  
+  padding: 0;
+  margin: 0;
+ 
+  display: flex;
+  width: 100%;
+  height: 600px;
+ 
+  
+ 
+  animation: fadeInUp 1.2s ease;
+  
+
+}
+.hero-text{
+  max-width: 100%;
 }
 
 @keyframes fadeInUp {
