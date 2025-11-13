@@ -24,7 +24,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 32px;
-  background: #fff;
+  background: rgba(250, 180, 180, 0.8);
   border-bottom: 1px solid #e0e0e0;
 }
 
@@ -61,7 +61,7 @@ nav ul li a:hover {
 .hero {
   padding: 96px 32px;
   background: #f5f5f5;
-  background-image: url("assets/images/background.jpg");
+
   background-size: cover;
   background-position: center;
   height: 88vh;
@@ -70,18 +70,21 @@ nav ul li a:hover {
   justify-content: center;
   text-align: center;
   background-repeat: no-repeat;
+  
 }
 
 .hero-container {
   max-width: 1200px;
   margin: 0 auto;
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr 1fr;
   gap: 64px;
   align-items: center;
+  
 }
 .hero-content {
   max-width: 500px;
+  
 }
 
 .hero-subtitle {
